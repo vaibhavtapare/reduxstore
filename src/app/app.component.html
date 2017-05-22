@@ -2,4 +2,9 @@
   {{title}}
 </h1>
 <p>Couner : {{ counter }}</p>
+
+<input type="text" #_name >
+<p>Name : {{ name }}</p>
 <button (click) ="increment()"> Increment </button>
+<button (click) ="plus(_name)"> Plus </button>
+
